@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>注册页面</title>
+</head>
+<body>
+	<center>
+	<form action="http://10.7.1.98/taozhuo/form_data.php" method="get">
+		<table border="2" cellspacing="0" width="500" height="650">
+			<tr>
+				<td>&nbsp;用户名：</td>
+				<td>&nbsp;<input type="text" name="yonghuming"></td>
+			</tr>
+			<tr>
+				<td>&nbsp;密码：</td>
+				<td>&nbsp;<input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td>&nbsp;确认密码：</td>
+				<td>&nbsp;<input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td>&nbsp;性别：</td>
+				<td>&nbsp;<input type="radio" name="sex" value="male" checked="checked"/>男&nbsp;
+				<input type="radio" name="sex" value="female" />女</td>
+			</tr>
+			<tr>
+				<td>&nbsp;生日：</td>
+				<td>
+					&nbsp;<select name="shengri">
+						<option value="gongli">公历</option>
+						<option value="nongli">农历</option>
+					</select>
+					<select name="nianfen">
+						<option value="nian">年</option>
+						<option value="2017">2017年</option>
+						<option value="2016">2016年</option>
+						<option value="2015">2015年</option>
+						<option value="2014">2014年</option>
+						<option value="2013">2013年</option>
+						<option value="2012">2012年</option>
+						<option value="2011">2011年</option>
+						<option value="2010">2010年</option>
+						<option value="2009">2009年</option>
+						<option value="2008">2008年</option>
+						<option value="2007">2007年</option>
+						<option value="2006">2006年</option>
+						<option value="2005">2005年</option>
+						<option value="2004">2004年</option>
+						<option value="2003">2003年</option>
+						<option value="2002">2002年</option>
+						<option value="2001">2001年</option>
+						<option value="2000">2000年</option>
+						<option value="1999">1999年</option>
+						<option value="1998">1998年</option>
+						<option value="1997">1997年</option>
+						<option value="1996">1996年</option>
+						<option value="1995">1995年</option>
+						<option value="1994">1994年</option>
+						<option value="1993">1993年</option>
+						<option value="1992">1992年</option>
+						<option value="1991">1991年</option>
+						<option value="1990">1990年</option>
+						<option value="1989">1989年</option>
+						<option value="1988">1988年</option>
+						<option value="1987">1987年</option>
+						<option value="1986">1986年</option>
+						<option value="1985">1985年</option>
+						<option value="1984">1984年</option>
+						<option value="1983">1983年</option>
+						<option value="1982">1982年</option>
+						<option value="1981">1981年</option>
+						<option value="1980">1980年</option>
+					</select>
+					<select name="yuefen">
+						<option value="yue">月</option>
+						<option value="yiyue">一月</option>
+						<option value="eryue">二月</option>
+						<option value="sanyue">三月</option>
+						<option value="siyue">四月</option>
+						<option value="wuyue">五月</option>
+						<option value="liuyue">六月</option>
+						<option value="qiyue">七月</option>
+						<option value="bayue">八月</option>
+						<option value="jiuyue">九月</option>
+						<option value="shiyue">十月</option>
+						<option value="shiyiyue">十一月</option>
+						<option value="shieryue">十二月</option>
+					</select>
+					<select name="rizi">
+						<option value="ri">日</option>
+						<option value="yihao">1日</option>
+						<option value="erhao">2日</option>
+						<option value="sanhao">3日</option>
+						<option value="sihao">4日</option>
+						<option value="wuhao">5日</option>
+						<option value="liuhao">6日</option>
+						<option value="qihao">7日</option>
+						<option value="bahao">8日</option>
+						<option value="jiuhao">9日</option>
+						<option value="shihao">10日</option>
+						<option value="shiyihao">11日</option>
+						<option value="shierhao">12日</option>
+						<option value="shisanhao">13日</option>
+						<option value="shisihao">14日</option>
+						<option value="shiwuhao">15日</option>
+						<option value="shiluhao">16日</option>
+						<option value="shiqihao">17日</option>
+						<option value="shibahao">18日</option>
+						<option value="shijiuhao">19日</option>
+						<option value="ershihao">20日</option>
+						<option value="ershiyihao">21日</option>
+						<option value="ershierhao">22日</option>
+						<option value="ershisanhao">23日</option>
+						<option value="ershisihao">24日</option>
+						<option value="ershiwuhao">25日</option>
+						<option value="ershiliuhao">26日</option>
+						<option value="ershiqihao">27日</option>
+						<option value="ershibahao">28日</option>
+						<option value="ershijiuhao">29日</option>
+						<option value="sanshihao">30日</option>
+						<option value="sanshiyihao">31日</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;所在地：</td>
+				<td>
+					&nbsp;<select name="guojia">
+						<option value="zhongguo">中国</option>
+						<option value="bajisitan">巴基斯坦</option>
+						<option value="meiguo">美国</option>
+						<option value="yuenan">越南</option>
+						<option value="taiguo">泰国</option>
+						<option value="xinjiapo">新加坡</option>
+						<option value="yingguo">英国</option>
+						<option value="faguo">法国</option>
+						<option value="deguo">德国</option>
+						<option value="xibanya">西班牙</option>
+						<option value="eluosi">俄罗斯</option>
+					</select>
+					<select name="shengfen">
+						<option value="beijing">北京</option>
+						<option value="hebei" selected="selected">河北</option>
+						<option value="hunan">湖南</option>
+						<option value="hubei">湖北</option>
+						<option value="henan">河南</option>
+						<option value="shandong">山东</option>
+						<option value="shangsi">山西</option>
+						<option value="neimenggu">内蒙古</option>
+						<option value="yisilanbao">伊斯兰堡</option>
+						<option value="niuyue">纽约</option>
+						<option value="henei">河内</option>
+						<option value="mangu">曼谷</option>
+						<option value="xinijapo">新加坡</option>
+						<option value="lundun">伦敦</option>
+						<option value="bali">巴黎</option>
+						<option value="bolin">柏林</option>
+						<option value="madeli">马德里</option>
+						<option value="mosike">莫斯科</option>
+					</select>
+					<select name="shi">
+						<option value="beijing">北京</option>
+						<option value="shijiazhuang" selected="selected">石家庄</option>
+						<option value="changsha">长沙</option>
+						<option value="wuhan">武汉</option>
+						<option value="jinan">济南</option>
+						<option value="zhengzhou">郑州</option>
+						<option value="taiyuan">太原</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;验证码：</td>
+				<td>
+					&nbsp;<input type="text" name="yanzhengma"/>
+					<img src="images/yanzhengma.jpg" alt="b" height="40" width="80" />
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;证件类型：</td>
+				<td>
+					&nbsp;<select name="zhengjianleixing">
+						<option value="shenfenzheng">身份证</option>
+						<option value="junrenzheng">军人证</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;证件号：</td>
+				<td>&nbsp;<input type="text" name="zhengjianhao"/></td>
+			</tr>
+			<tr>
+				<td>&nbsp;爱好：</td>
+				<td>
+					&nbsp;<input type="checkbox" name="aihao[]" value="yingyue"/>音乐
+					<input type="checkbox" name="aihao[]" value="dushu" checked="checked"/>读书
+					<input type="checkbox" name="aihao[]" value="tiaowu" checked="checked"/>跳舞
+					<input type="checkbox" name="aihao[]" value="xiaqi"/>下棋
+					<input type="checkbox" name="aihao[]" value="qita"/>其他
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;说明：</td>
+				<td>
+					&nbsp;<textarea rows="8" cols="50"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;上传头像：</td>
+				<td>&nbsp;<input type="file" name="ding"/></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit" name="submit" value="提交"/>
+					<input type="reset" name="reset" value="重置"/>
+					<input type="button" name="button" value="按钮"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+	</center>
+</body>
+</html>
