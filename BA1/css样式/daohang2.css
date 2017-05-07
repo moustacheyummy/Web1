@@ -1,0 +1,34 @@
+ul{
+	list-style-type: none;
+	background-image: url(../images/bg.gif);
+	width: 930px;
+	height: 70px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+ul li a{
+	color: white;	
+	text-decoration: none;
+	font-size: 15px;
+	margin-left: 20px;
+	vertical-align: middle;
+	font-weight: bold;
+	line-height: 65px;
+}	
+li{
+	float: left;
+
+}
+.a1{
+	color: #b9f605;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height: 65px;
+}
+.a2{
+	color:#fdb306;
+}
+.a1 a:hover{
+	color:#b9f605;
+	}
