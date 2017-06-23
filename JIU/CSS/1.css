@@ -4,6 +4,7 @@
 	border: 0px;
 }
 body{
+	align:center ;
 	background-image: url(../images/bodybg.gif);
 	background-repeat: repeat-x;
 	margin:0 auto;
@@ -48,7 +49,7 @@ body{
 .t5 ul{
 	margin-left: 150px;
 }
-.t6 input[type='text']{
+/*.t6 input[type='text']{
 	margin-top: 10px;
 	background-color: #f8f5ee;
 	width: 140px;
@@ -62,7 +63,7 @@ body{
 	border: 1px solid #f8f5ee;
 	color:#fff;
 	margin-left: -4px;
-}
+}*/
 /*网页中部*/
 .content{
 	width: 1550px;
